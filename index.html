@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Title</title>
     <title>Artefacts</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/variables.css">
-
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/start-screen.css">
+    <link rel="stylesheet" href="styles/section-info.css">
 </head>
 <body>
 <header class="header">
@@ -18,11 +21,11 @@
             </div>
             <div class="header__nav">
                 <nav class="navigation">
-                    <ul class="navigation-list">
-                        <li class="navigation-item"><p class="regular">Каталог</p></li>
-                        <li class="navigation-item"><p class="regular">Галерея</p></li>
-                        <li class="navigation-item"><p class="regular">О лаборатории</p></li>
-                        <li class="navigation-item"><p class="regular">Контакты</p></li>
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a href="#">Каталог</a></li>
+                        <li class="navigation__item"><a href="#">Галерея</a></li>
+                        <li class="navigation__item"><a href="#">О лаборатории</a></li>
+                        <li class="navigation__item"><a href="#">Контакты</a></li>
                     </ul>
                 </nav>
             </div>
@@ -37,6 +40,57 @@
         </div>
     </div>
 </header>
-<main class="main"></main>
+<main class="main">
+    <section class="start-screen">
+        <div class="container">
+            <div class="start-screen__content">
+                <h1>Крупнейшая коллекция<br>
+                    природных артефактов</h1>
+                <p>Являясь всего лишь частью общей картины, интерактивные прототипы,<br>
+                    которые представляют собой яркий пример европейского типа политической<br>
+                    и социальной культуры.</p>
+                <a href="#">Исследовать <img src="images/Arrow%201.svg"></a>
+            </div>
+        </div>
+    </section>
+    <section class="section-info">
+        <div class="container">
+            <div class="section-info__cards">
+                <div class="section-info__card card-1">
+                    <div class="image-box">
+                        <img src="images/Layer%203.png" alt="">
+                    </div>
+                    <h3>Fig. 1 (plant)</h3>
+                    <p>Имеется спорная точка зрения, гласящая примерно следующее: активно развивающиеся страны третьего мира своевременно верифицированы.</p>
+                    <a href="#">Подробнее</a>
+                </div>
+                <div class="section-info__card card-2">
+                    <div class="image-box">
+                        <img src="images/Layer%202.png" alt="">
+                    </div>
+                    <h3>Fig. 2 (plant)</h3>
+                    <p>Прежде всего, синтетическое тестирование влечет за собой процесс внедрения и модернизации условий.</p>
+
+                </div>
+                <div class="section-info__card card-3">
+                    <div class="image-box">
+                        <img src="images/Layer%204.png" alt="">
+                    </div>
+                    <h3>Fig. 3 (leaf)</h3>
+                    <p>Лишь непосредственные участники прогресса неоднозначны и будут в равной степени предоставлены сами себе для работы.</p>
+
+                </div>
+                <div class="section-info__card card-4">
+                    <div class="image-box">
+                        <img src="images/Layer%201%201.png" alt="">
+                    </div>
+                    <h3>Fig. 4 (wood)</h3>
+                    <p>Базовый вектор развития не даёт нам иного выбора, кроме определения новых предложений.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
 </body>
 </html>

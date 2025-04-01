@@ -2,6 +2,7 @@
 body{
     font-family: var(--font-family-primary);
     color: var(--font-color-primary);
+    font-size: 16px;
 }
 .container{
     max-width: 1110px;
@@ -12,4 +13,7 @@ body{
 .regular{
     font-size: 16px;
     font-weight: 400;
+}
+main{
+    position: relative;
 }

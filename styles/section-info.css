@@ -1,0 +1,32 @@
+.section-info{
+    background: var(--bg-color-primary);
+    padding-top: 60px;
+}
+.section-info__cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.section-info__card{
+    background-color: var(--bg-color-primary);
+    border: 1px solid var(--bg-color-secondary);
+}
+.section-info__card h3{
+    font-family: var(--font-family-secondary);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 16px auto 8px 16px;
+}
+.section-info__card p{
+    color: var(--font-color-secondary-grey);
+    line-height: 150%;
+    margin: 0 16px 16px 16px;
+}
+.section-info__card a{
+
+}
+.image-box{
+    background-color: var(--bg-color-secondary);
+    padding: 30px 16px;
+}
