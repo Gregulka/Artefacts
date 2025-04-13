@@ -1,13 +1,14 @@
 .section-info{
-    background: var(--bg-color-primary);
     padding-top: 60px;
 }
 .section-info__cards{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     gap: 30px;
 }
 .section-info__card{
+    display: flex;
+    flex-direction: column;
     background-color: var(--bg-color-primary);
     border: 1px solid var(--bg-color-secondary);
 }
@@ -24,8 +25,34 @@
     margin: 0 16px 16px 16px;
 }
 .section-info__card a{
+    color: var(--font-color-secondary);
 }
 .image-box{
     background-color: var(--bg-color-secondary);
     padding: 30px 16px;
+    height: 155px;
+}
+.button{
+    width: 145px;
+    height: 45px;
+    margin: auto 0 24px 16px;
+    border: 1px solid var(--font-color-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button a {
+    text-align: center;
+    width: 100%;
+}
+.listing-items{
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+.listing-items p {
+    font-family: var(--font-family-secondary);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 30px 0 30px;
 }
