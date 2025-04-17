@@ -11,3 +11,14 @@
     display: flex;
     gap: 64px;
 }
+.search-button:hover, .log-in-button:hover{
+    opacity: 0.8;
+}
+.search-button:focus, .log-in-button:focus{
+    border: 1px solid #83A440;
+    padding: 5px;
+}
+.search-button:active, .log-in-button:active{
+    opacity: 0.4;
+}
+

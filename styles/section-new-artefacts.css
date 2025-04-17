@@ -8,7 +8,7 @@
 .section-new-artefacts__cards{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    gap: 15px;
+    gap: 30px;
 }
 .section-new-artefacts .container h2{
     font-family: var(--font-family-secondary);
@@ -45,7 +45,6 @@
     margin-right: 8px;
 }
 .card-2__info p{
-    margin-top: 24px;
     color: #506829;
 }
 .card-2__info h3{
@@ -53,4 +52,5 @@
     font-size: 24px;
     font-weight: 700;
     color: var(--font-color-secondary-black);
+    margin-bottom: 8px;
 }

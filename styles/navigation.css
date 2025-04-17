@@ -6,3 +6,13 @@
     text-decoration: none;
     color: var(--font-color-primary);
 }
+.navigation__item a:hover{
+    color: var(--font-color-secondary);
+}
+.navigation__item a:focus{
+    border: 1px solid #83A440;
+    padding: 1px 7px 1px 7px;
+}
+.navigation__item a:active{
+    color: #688B05;
+}

@@ -9,6 +9,7 @@
 .section-info__card{
     display: flex;
     flex-direction: column;
+    flex: 1;
     background-color: var(--bg-color-primary);
     border: 1px solid var(--bg-color-secondary);
 }
@@ -17,42 +18,77 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 150%;
-    margin: 16px auto 8px 16px;
+    margin-bottom: 8px;
 }
 .section-info__card p{
     color: var(--font-color-secondary-grey);
     line-height: 150%;
-    margin: 0 16px 16px 16px;
+    margin-bottom: 16px;
 }
 .section-info__card a{
     color: var(--font-color-secondary);
 }
-.image-box{
-    background-color: var(--bg-color-secondary);
-    padding: 30px 16px;
-    height: 155px;
+.section-info__content{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 16px 16px 24px 16px;
 }
-.button{
+.section-info__image-box{
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-color-secondary);
+    height: 180px;
+    padding: 30px 16px 30px 16px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.section-info__image1{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.section-info__image2{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+.section-info__button{
     width: 145px;
     height: 45px;
-    margin: auto 0 24px 16px;
     border: 1px solid var(--font-color-secondary);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
+    color: var(--font-color-secondary);
+    cursor: pointer;
 }
-.button a {
-    text-align: center;
-    width: 100%;
+
+.section-info__button:hover{
+    background-color: #BAE249;
+    color: var(--font-color-secondary-black);
+}
+.section-info__button:focus{
+
+}
+.section-info__button:active{
+    background-color: #688B05;
+}
+.section-info__button:disabled{
+    color: #899D9D;
+    border: 1px solid #899D9D;
 }
 .listing-items{
     display: flex;
     justify-content: center;
     margin-top: 26px;
+    gap: 30px;
+    text-align: center;
 }
 .listing-items p {
     font-family: var(--font-family-secondary);
     font-size: 24px;
     font-weight: 700;
-    margin: 0 30px 0 30px;
 }
